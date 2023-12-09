@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/categorie"
+    tools:context=".categories"
+
+    android:orientation="vertical">
+
+
+    <!-- Barre d'icônes en haut de la page -->
+
+
+    <!-- Your ListView with Adapter Content -->
+
+    <RelativeLayout
+        android:id="@+id/iconBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_yellow"
+        android:padding="16dp"
+        >
+
+        <!-- Icône de logout -->
+
+        <ImageView
+            android:id="@+id/logoutIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:clickable="true"
+            android:onClick="performLogout"
+            android:src="@drawable/baseline_logout_24" />
+
+        <TextView
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:text="Choose category please"
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/shop_list_view"
+        android:layout_width="350dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/rounded_background"
+        android:divider="@drawable/custom_divider"
+        android:dividerHeight="5dp"
+
+        android:layout_height="wrap_content"
+
+        />
+
+</LinearLayout>

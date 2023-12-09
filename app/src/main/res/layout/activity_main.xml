@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Barre d'icônes en haut de la page -->
+    <RelativeLayout
+        android:id="@+id/iconBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:padding="16dp">
+
+        <!-- Icône de logout -->
+        <ImageView
+            android:id="@+id/logoutIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_logout_24"
+            android:layout_alignParentEnd="true"
+            android:clickable="true"
+            android:onClick="performLogout"/>
+    </RelativeLayout>
+
+    <!-- Reste de votre mise en page -->
+
+</RelativeLayout>
