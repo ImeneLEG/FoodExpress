@@ -1,6 +1,6 @@
 # FoodExpress - Commandez vos repas à Oujda
 <p align="center">
-  <img src="LogoAKIA.png" alt="logo">
+  <img src="logoAndroid.png" alt="logo">
 </p>
 
 Bienvenue dans FoodExpress, une application innovante qui offre une expérience de commande de repas unique à Oujda. Notre vision est de mettre à votre disposition tous les restaurants locaux, classés par catégorie de repas, et de transformer cette vision en réalité, tout en vous permettant de commander vos repas depuis le confort de votre foyer.
@@ -16,12 +16,12 @@ Bienvenue dans FoodExpress, une application innovante qui offre une expérience 
 
 
 ## Capture Explicative:
-<div justify-content: space-around;">
-    <img src="https://github.com/Noussaiba-Zaoui/React_AKIA/blob/02e985505c1af102e49e2fc93374d0ee2caa8b49/Capture1.png" alt="Capture d'écran 1" style="width: 50%; height: 200px;"> 
-    <img src="https://github.com/Noussaiba-Zaoui/React_AKIA/blob/02e985505c1af102e49e2fc93374d0ee2caa8b49/Capture2.png" alt="Capture d'écran 2" style="width: 49%; height: 200px;">
-    <img src="https://github.com/Noussaiba-Zaoui/React_AKIA/blob/5a670ce8f79df41d06f1f8dccf9e7504d3088c65/Capture3.png" alt="Capture d'écran 3" style="width: 50%; height: 200px;">
-    <img src="https://github.com/Noussaiba-Zaoui/React_AKIA/blob/5a670ce8f79df41d06f1f8dccf9e7504d3088c65/Capture4.png" alt="Capture d'écran 4" style="width: 49%; height: 200px;">
-</div>
+
+  <img src="https://github.com/ImeneLEG/FoodExpress/blob/e4198f344fef8f1e67c6e3769766fc6a08ca1c23/three.png" alt="Capture d'écran 1" > 
+    <img src="https://github.com/ImeneLEG/FoodExpress/blob/e4198f344fef8f1e67c6e3769766fc6a08ca1c23/two.png" alt="Capture d'écran 2" >
+    <img src="https://github.com/ImeneLEG/FoodExpress/blob/e4198f344fef8f1e67c6e3769766fc6a08ca1c23/one.png" alt="Capture d'écran 3">
+   
+
 
 
 ## Comment utiliser l'application
