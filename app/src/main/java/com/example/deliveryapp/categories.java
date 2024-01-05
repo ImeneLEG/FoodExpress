@@ -32,9 +32,9 @@ public class categories extends AppCompatActivity {
         //List of items:
         List<HighTechitem> hightTechItemList = new ArrayList<>();
 
-        hightTechItemList.add(new HighTechitem("Fast Food", "burger"));
-        hightTechItemList.add(new HighTechitem("Traditional", "tajine"));
-        hightTechItemList.add(new HighTechitem("Sushi", "sushi"));
+        hightTechItemList.add(new HighTechitem("Fast Food", "fastfood"));
+        hightTechItemList.add(new HighTechitem("Traditional", "traditional"));
+        hightTechItemList.add(new HighTechitem("Sushi", "souchi"));
 
 
         //get List view:
@@ -53,11 +53,11 @@ public class categories extends AppCompatActivity {
                 } else if (position == 1) {
 
                     //clicked traditional
-                    startActivity(new Intent(categories.this, traditionalMenu.class));
+                    startActivity(new Intent(categories.this, TraditionalMenu.class));
 
                 } else {
                     //cliked sushi
-                    startActivity(new Intent(categories.this, SushiMenu.class));
+                    startActivity(new Intent(categories.this, SuchiFoodMenu.class));
                 }
             }
         });

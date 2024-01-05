@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paypalform">
+
+
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="743dp"
+        android:src="@drawable/pypll" ></ImageView>
+
+    <EditText
+        android:id="@+id/editTextName1"
+        android:textColor="@color/white"
+        android:layout_width="284dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="210dp"
+        android:backgroundTint="@color/white"
+        android:hint="Card Holder Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white" ></EditText>
+
+    <EditText
+        android:id="@+id/editTextName2"
+        android:textColor="@color/white"
+        android:layout_width="284dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="@color/white"
+        android:hint="Card Number"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white" ></EditText>
+
+    <EditText
+        android:id="@+id/editTextName3"
+        android:textColor="@color/white"
+        android:layout_width="100dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="@color/white"
+        android:hint="Expire End"
+        android:inputType="textPersonName"
+
+        android:textColorHint="@color/white" ></EditText>
+
+    <EditText
+        android:id="@+id/editTextName4"
+        android:textColor="@color/white"
+        android:layout_width="100dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="@color/white"
+        android:hint="CVV"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"></EditText>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="675dp"
+        android:layout_marginBottom="500dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:paddingLeft="30dp"
+        android:text="Submit"
+        android:textSize="20dp"
+        app:backgroundTint="#EA6B1D"
+        app:iconTint="#EA6B1D"
+        android:textColor="@color/white"
+
+        ></Button>
+
+
+
+
+</FrameLayout>

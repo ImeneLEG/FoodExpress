@@ -13,6 +13,9 @@
         android:theme="@style/Theme.DeliveryApp"
         tools:targetApi="31">
         <activity
+            android:name=".FirstPayementActivity"
+            android:exported="false" />
+        <activity
             android:name=".categories"
             android:exported="false" />
         <activity
@@ -38,21 +41,25 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
-
+            android:exported="false" />
         <activity
             android:name=".FastFoodMenu"
-            android:exported="false"></activity>
-
+            android:exported="false" />
         <activity
-            android:name=".SushiMenu"
-            android:exported="false"></activity>
-
+            android:name=".cartListActivity"
+            android:exported="false" />
         <activity
-            android:name=".traditionalMenu"
-            android:exported="false"></activity>
-
-
+            android:name=".SuchiFoodMenu"
+            android:exported="false" />
+        <activity
+            android:name=".TraditionalMenu"
+            android:exported="false" />
+        <activity
+            android:name=".mastercard"
+            android:exported="false" />
+        <activity
+            android:name=".paypalform"
+            android:exported="false" />
     </application>
 
 </manifest>

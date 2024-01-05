@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstPayementActivity">
+
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="743dp"
+        android:src="@drawable/bg" />
+
+    <Button
+        android:id="@+id/paypalBtn"
+        android:layout_width="383dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="300dp"
+        android:clickable="true"
+        android:layout_marginBottom="500dp"
+        android:drawableEnd="@drawable/pyplicon"
+android:paddingLeft="55dp"
+        android:text="Via Paypal"
+        android:textSize="20dp"
+        android:drawablePadding="100dp"
+        app:backgroundTint="#01324D"
+        android:textColor="@color/white"/>
+
+    <Button
+android:id="@+id/masterCardBtn"
+        android:layout_width="383dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginBottom="500dp"
+        android:clickable="true"
+        android:textColor="@color/white"
+        app:backgroundTint="#78C3D8"
+        android:paddingLeft="65dp"
+        android:text="Via Mastercard"
+        android:textSize="20dp"
+        android:drawableEnd="@drawable/card"
+        app:iconTint="#01324D"></Button>
+
+
+
+</FrameLayout>
+
