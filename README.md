@@ -6,12 +6,12 @@
 Bienvenue dans FoodExpress, une application innovante qui offre une expérience de commande de repas unique à Oujda. Notre vision est de mettre à votre disposition tous les restaurants locaux, classés par catégorie de repas, et de transformer cette vision en réalité, tout en vous permettant de commander vos repas depuis le confort de votre foyer.
 
 
-## Video Demonstrative :
+## FoodExpress -  Video Demonstrative :
 
 https://github.com/ImeneLEG/FoodExpress/assets/119754991/b470c8bf-abec-4305-b61c-4dc29d9d92d0
 
 
-## Fonctionnalités principales
+## FoodExpress - Fonctionnalités principales
 
 - **Large choix de restaurants :** Accédez à une variété de restaurants locaux dans chaque catégorie de repas.
 - **Processus de commande simplifié :** FoodExpress rend la commande de repas facile et rapide.
@@ -20,7 +20,7 @@ https://github.com/ImeneLEG/FoodExpress/assets/119754991/b470c8bf-abec-4305-b61c
 
 
 
-## Capture Explicative:
+## FoodExpress - Capture Explicative:
 
   <img src="https://github.com/ImeneLEG/FoodExpress/blob/e4198f344fef8f1e67c6e3769766fc6a08ca1c23/three.png" alt="Capture d'écran 1" > 
     <img src="https://github.com/ImeneLEG/FoodExpress/blob/e4198f344fef8f1e67c6e3769766fc6a08ca1c23/two.png" alt="Capture d'écran 2" >
