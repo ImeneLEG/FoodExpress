@@ -1,6 +1,6 @@
 # FoodExpress - Commandez vos repas à Oujda
 <p align="center">
-  <img src="logoAndroid.png" alt="logo">
+  <img src="front.png" alt="logo">
 </p>
 
 Bienvenue dans FoodExpress, une application innovante qui offre une expérience de commande de repas unique à Oujda. Notre vision est de mettre à votre disposition tous les restaurants locaux, classés par catégorie de repas, et de transformer cette vision en réalité, tout en vous permettant de commander vos repas depuis le confort de votre foyer.
@@ -59,4 +59,12 @@ Nous apprécions toutes les contributions qui améliorent notre application et o
 - Ce projet est en constante évolution, n'hésitez pas à soumettre des problèmes ou des suggestions.
 - Merci de faire partie de l'aventure FoodExpress!
 
+### Réalisé par :
 
+
+| NOM & Prénom       | Github Link                      |
+|---------------------|----------------------------------|
+| LEGSIR Imane        | [Github Link](https://github.com/ImeneLEG)  |
+| DOBLI Hajar         | [Github Link](https://github.com/HajarDobli)  |
+| LAOUAJ Kaoutar      | [Github Link](https://github.com/Kaoutarlaouaj)|
+| ZAOUI Noussaiba     | [Github Link](https://github.com/Noussaiba-Zaoui)|
